@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders the app header', () => {
+test('renders Hello World text', () => {
   render(<App />);
-  const headerElement = screen.getByText(/hello world/i); // Adjust text as per your app
-  expect(headerElement).toBeInTheDocument();
+  const element = screen.getByText(/hello world/i);
+  expect(element).toBeInTheDocument();
 });
