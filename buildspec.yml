@@ -6,7 +6,7 @@ phases:
       - npm install
   build:
     commands:
-      - echo "Building the application..."
+      - echo "Building the application..." #build THE APP
       - npm run build
 artifacts:
   files:
