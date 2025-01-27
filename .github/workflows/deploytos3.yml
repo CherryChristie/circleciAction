@@ -34,6 +34,6 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync ./build s3://myclis3bucket --delete  
+          aws s3 sync ./build s3://myclis3bucket --delete  //s3buketname
           
         
