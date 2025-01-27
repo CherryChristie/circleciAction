@@ -3,7 +3,7 @@ name: Deploy App code to AWS s3
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
