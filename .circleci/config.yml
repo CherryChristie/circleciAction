@@ -10,7 +10,7 @@ jobs:
     steps:
       - checkout
       - node/install-packages:
-          pkg-manager: npm install
+          pkg-manager: "npm install"
       - run:
           name: Run tests
           command: npm test --passWithNoTests
